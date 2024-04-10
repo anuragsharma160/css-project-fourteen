@@ -7,3 +7,5 @@
     - Transform translate
     - Margin block
     - Media Query
+
+2. Live link of the project - [CSS-Assignment-14](https://css-project-fourteen.vercel.app/ "Link")
