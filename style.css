@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+img[src="./assets/lady.jpg"]{
+  width: 31%;
+}
+
+.contener{
+  position: absolute;
+  top: 0;
+  padding: 4% 4% 0 4%;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.line{
+  background-color: #1f1f1f;
+  height: 1px;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
+
+.list2{
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  left: 30%;
+  height: 30%;
+}
+
+.list2 ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list2 ul li{
+  list-style-position: inside;
+}
+
+.list-item{
+  font-size: .9rem;
+  list-style-type: none;
+  font-weight: 400;
+  color: #808080;
+  font-family: "Montserrat";
+}
+
+.list-item:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.mid{
+  position: relative;
+  left: 30%;
+  width: 70%;
+  height: 50%;
+}
+
+.mid button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 1% 2%;
+  font-weight: 700;
+}
+
+.mid h1{
+  font-weight: 700;
+  font-size: 5rem;
+  font-family: "Montserrat";
+  text-shadow: 1px 1px 1px #1f1f1f;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.mid h2{
+  width: fit-content;
+  font-weight: 700;
+  transform: translateX(48%);
+  font-size: 500%;
+  font-family: "Montserrat";
+}
+
+.mid h3{
+  width: fit-content;
+  transform: translate(345%, -130%);
+  color: #808080;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  height: 80%;
+  position: absolute;
+  right: 0;
+}
+
+img[src="./assets/Twitter-Icon.png"]{
+  width: 30%;
+}
+
+img[src="./assets/Instagram-Icon.png"]{
+  width: 30%;
+}
+
+img[src="./assets/Facebook-Icon.png"]{
+  width: 20%;
+}
+
+img[src="./assets/Email-Icon.png"]{
+  width: 30%;
+}
+
+.last{
+  width: 40%;
+  height: 42%;
+  position: relative;
+  left: 60%;
+  bottom: 30%;
+}
+
+img[src="./assets/dance2.jpg"]{
+  width: 70%;
+}
+
+img[class="arrow"]{
+  width: 8%;
+  margin-left: 20%;
+}
+
+.line2{
+  height: 30%;
+  width: 0.1%;
+  background-color: #1f1f1f;
+  position: relative;
+  left: 30.15%;
+  bottom: 72%;
+}
+
+img[src="./assets/Logo.png"]{
+  width: 10%;
+}
+
+img[src="./assets/commas.png"]{
+  width: 10%;
+}
+
+@media screen and (max-width:480px){
+  html{
+    font-size: 20%;
+  }
+
+  .mid{
+    position: relative;
+    left: 30%;
+    width: 70%;
+    height: 30%;
+    margin-block: 2%;
+  }
+
+  .mid h3{
+    transform: translate(210%, -100%);
+  }
+
+  .line2{
+    height: 30%;
+    width: 0.1%;
+    background-color: #1f1f1f;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width:768px){
+  html{
+    font-size: 40%;
+  }
+
+  .mid{
+    height: 30%;
+    margin-block: 2%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1100px){
+  html{
+    font-size: 50%;
+  }
+
+  .mid{
+    height: 50%;
+    margin-block: 2%;
+  }
+}
